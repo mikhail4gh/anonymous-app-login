@@ -1,0 +1,75 @@
+.whole-container{
+    background-image: url(john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    gap: 40px;
+}
+.login-text{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.input-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{ 
+    border: none;
+    border-bottom: 2px solid white;
+    font-style: italic;
+    background: transparent;
+    padding-bottom: 8px;
+}
+.backup-access{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.alternate-login-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.login-button{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.register{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.password, .checkbox{
+    color: white;
+}
+.input::placeholder{
+    color: white;
+}
